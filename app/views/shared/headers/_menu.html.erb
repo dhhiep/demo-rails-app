@@ -1,0 +1,24 @@
+<div class="navbar-collapse collapse" id="navbar-main">
+  <ul class="nav navbar-nav">
+    <li><%= link_to "Home", root_path %></li>
+    <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Products<span class="caret"></span></a>
+      <ul class="dropdown-menu" aria-labelledby="themes">
+        <li><%= link_to "List", products_path %></li>
+        <li class="divider"></li>
+        <li><%= link_to "New Product", new_product_path %></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul class="nav navbar-nav navbar-right">
+    <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">M4<span class="caret"></span></a>
+      <ul class="dropdown-menu" aria-labelledby="themes">
+        <li><a href="#1">M4#1</a></li>
+        <li class="divider"></li>
+        <li><a href="#1">M4#2</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
